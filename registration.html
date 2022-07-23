@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Child Care</title>
+        <link rel="stylesheet" type="text/css" href="registration.css">
+        <!-- <header style="text-align: center; font-size: 40px; color: rgb(255, 69, 0);font-weight: 600;">JEP Child Care</header> -->
+    </head>
+
+    <body>
+        <!-- <div class="line">
+            <div class="line-two"></div>
+        </div> -->
+        <h3 style="padding-top: 50px;text-align: center;font-size: 35px;">Register Your Child With Us</h3>
+
+        <div class="container">
+            <form method="POST" action="registration.php">
+                        Parents full Name: <input type="text" name="Parent_Name"><br>
+                        Child's Full Name: <input type="text" name="Child_Name"><br>
+                        <select name="Category">
+                            <option value="" disabled selected>Select a category for your child</option>
+                            <option value="babies">Babies</option>
+                            <option value="wobblers">Wobblers</option>
+                            <option value="toddlers">Toddlers</option>
+                            <option value="preschool">Pre-School</option>
+                        </select>
+                        <select name="Duration">
+                            <option value="" disabled selected>Select a Care duration for your child</option>
+                            <option value="half">Half-day</option>
+                            <option value="full">Full-day</option>
+                            <option value="one-day">1 day</option>
+                            <option value="3-day">3 days</option>
+                            <option value="5-day">5 days</option>
+                        </select>
+                        Email address <input type="text" name="Email"><br>
+                        Password <input type="password" name="pwd"><br>
+
+                        <input type="submit" name="submit" value="Register">
+            </form>
+        </div>
+        
+    </body>
+</html>
